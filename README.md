@@ -2,7 +2,7 @@
 
 The project follows a modular structure with the following main components:
 
-- **config/**: Contains configuration files (e.g., API URLs, API keys).
+- **config/**: Contains configuration files (e.g., API URLs, API keys). (API Key is exposed in .env for evaluation/test purpose)(API キーは評価目的で .env で公開されます)
 - **modules/**: The core business logic, divided into different modules.
   - **controllers/**: Handles incoming requests and routes them to the appropriate services.
   - **services/**: Business logic, including interaction with external APIs.
@@ -17,4 +17,4 @@ If the project evolves to include database interactions, a `repositories/` folde
 
 ### Environment 
 
-For now commenting .env in gitignore because it contains API key and Base URL. 現時点では、.env (gitignore　ファイル)に API キーとベース URL が含まれているのでコメントします。
+For evaluation purpose commenting .env in gitignore because it contains API key and Base URL. 現時点では、.env (gitignore　ファイル)に API キーとベース URL が含まれているのでコメントします。
